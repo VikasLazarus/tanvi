@@ -13,7 +13,9 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-
+.w3-round{
+  border-radius: 30px;
+}
 .gbtn:hover{
 background-color: #efd17e !important;
 border-radius: 30px;
@@ -28,7 +30,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 /* target all bullets */
 .swiper-pagination-bullet {
-  background-color: white;
+  background-color: lightgray;
   opacity: 1;
 }
 
@@ -220,7 +222,7 @@ c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-
 <!--header new-->
 <div class="swiper mySwiper w3-display-container">
 
-  <div class="w3-row w3-display-topright w3-center" style="z-index: 6; background:url(images/az.png); background-color: #02302054; padding:128px 16px;">
+  <div class="w3-row w3-display-topright w3-center" style="width: 100%; height: 640px; z-index: 6; background:url(images/az.png); background-color: #02302054; padding:128px 16px;">
       
     
     
@@ -228,7 +230,8 @@ c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-
       <b class="w3-large" style="color: #efd17e;">TANVI COTTAGES</b>
       <h1 class="w3-margin w3-xxlarge w3-text-sand">Welcome To Tanvi Cottages</h1>
     <p class="w3-xlarge w3-text-white">Tanvi Cottages Is A Leading Hotel Chain In Manali</p>
-    <button class="w3-button w3-gg w3-margin-top w3-small" style="border:2px solid #0c422e; border-radius: 30px;"><b>CALL US NOW</b></button>
+ <button class="w3-button w3-gg w3-margin-top w3-small" style="border:2px solid #0c422e; border-radius: 30px;"><b>CALL US NOW</b></button>
+    
   </div>
 
     
@@ -392,7 +395,37 @@ c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-
       
     </div>
     <div class="w3-half" style="height: 300px;">
-        <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1731072725~exp=1731076325~hmac=ce6cc4d852d3a75c1bc033bd010c3020c896ecd022b359737c6048d15309979d&w=740" style="object-fit: cover; overflow: hidden; height: 100%; width: 100%;">
+      <div class="swiper mySwiper w3-display-container">
+
+        <div class="w3-display-container  w3-display-bottommiddle w3-white w3-center" style="z-index: 6; width: 146px; height: 46px; border-radius: 20px 20px 0px 0px; padding: 0px; margin-bottom: 0px;">
+         
+          <div class="w3-display-bottomleft" style="margin-left: -38.6px; margin-bottom: -16px;">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 40V0C40 22.0914 22.0914 40 0 40H40Z" fill="#ffffff"></path></svg>
+          </div>
+          <div class="w3-display-bottomright" style="margin-right: -36.49px; margin-bottom: -13.5px;">
+            <div style="rotate: 90deg;">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 40V0C40 22.0914 22.0914 40 0 40H40Z" fill="#ffffff"></path></svg>
+          </div></div>
+            </div>
+    
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="height: 300px;">
+            <img src="images/bg.avif" style="height: 100%; width: 100%; object-fit: cover; overflow: hidden;">
+          </div>
+          <div class="swiper-slide" style="height: 300px;">
+            <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 100%; width: 100%; object-fit: cover; overflow: hidden;">
+          </div>
+          <div class="swiper-slide" style="height: 300px;">
+            <img src="images/bg.avif" style="height: 100%; width: 100%; object-fit: cover; overflow: hidden;">
+          </div>
+          <div class="swiper-slide" style="height: 300px;">
+            <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="height: 100%; width: 100%; object-fit: cover; overflow: hidden;">
+          </div>
+          
+        </div>
+        
+        <div class="swiper-pagination" style="margin-bottom: 10px;"></div>
+      </div>
     </div>
     
 </div>
@@ -511,26 +544,61 @@ c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-
   <div class="w3-row">
     <div class="w3-third">
       <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1731072725~exp=1731076325~hmac=ce6cc4d852d3a75c1bc033bd010c3020c896ecd022b359737c6048d15309979d&w=740" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-      <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1731072725~exp=1731076325~hmac=ce6cc4d852d3a75c1bc033bd010c3020c896ecd022b359737c6048d15309979d&w=740" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-      <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1731072725~exp=1731076325~hmac=ce6cc4d852d3a75c1bc033bd010c3020c896ecd022b359737c6048d15309979d&w=740" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
-    </div>
+   </div>
 
     <div class="w3-third">
       <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1731072725~exp=1731076325~hmac=ce6cc4d852d3a75c1bc033bd010c3020c896ecd022b359737c6048d15309979d&w=740" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
-      <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1731072725~exp=1731076325~hmac=ce6cc4d852d3a75c1bc033bd010c3020c896ecd022b359737c6048d15309979d&w=740" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
-      <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1731072725~exp=1731076325~hmac=ce6cc4d852d3a75c1bc033bd010c3020c896ecd022b359737c6048d15309979d&w=740" style="width:100%" onclick="onClick(this)" alt="Nature again.. At its finest!">
     </div>
     
     <div class="w3-third">
       <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1731072725~exp=1731076325~hmac=ce6cc4d852d3a75c1bc033bd010c3020c896ecd022b359737c6048d15309979d&w=740" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
-      <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1731072725~exp=1731076325~hmac=ce6cc4d852d3a75c1bc033bd010c3020c896ecd022b359737c6048d15309979d&w=740" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-      <img src="https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg?t=st=1731072725~exp=1731076325~hmac=ce6cc4d852d3a75c1bc033bd010c3020c896ecd022b359737c6048d15309979d&w=740" style="width:100%" onclick="onClick(this)" alt="What a beautiful day!">
     </div>
   </div>
 
 <!-- Modal for full size images on click-->
+<div class="w3-center">
+  <h3 class="w3-text-dark-gray"><b>CONTACT US</b></h3>
+  <hr>
+</div>
+<div class="bg-img-contact">
+  <div class="w3-content w3-container w3-text-dark-gray w3-padding-16" id="contact">
 
+    <div class="w3-row w3-content">
 
+      <div class="">
+        <div class="w3-large w3-half w3-margin-bottom">
+          <i style="margin-bottom:4px; border-radius: 30px; padding: 8px 11.5px;" class=" fa fa-map-marker w3-large w3-g w3-text-g"></i> Aleo, Manali, Himachal Pradesh<br>
+          <a href="tel:+919882220191"><i style="margin-bottom:4px; border-radius: 30px; padding: 8px 10px;" class=" fa fa-phone w3-large w3-g w3-text-g"></i> +91-98822-20191</a>
+          <br>
+          <a href="tel:+917018180083"> <i style="margin-bottom:4px; border-radius: 30px; padding: 8px 10px;" class=" fa fa-phone w3-large w3-g w3-text-g"></i> +91-70181-80083</a>
+          <br>
+          <a href="https://wa.me/919882220191"> <i style="margin-bottom:4px; border-radius: 30px; padding: 8px 10px;" class=" fa fa-whatsapp w3-large w3-g w3-text-g"></i> +91-70181-80083</a>
+          <br>
+          <a href="mailto:demountcastlemanali@gmail.com"><i style="margin-bottom:4px; border-radius: 30px; padding: 8px 8px;" class="  fa fa-envelope w3-large w3-g w3-text-g"></i>
+            demountcastlemanali@gmail.com</a> <br>
+        </div>
+        <div class="w3-half w3-row">
+          <form action=" " onsubmit="alert('Thanks For Submiting The Form. Our Executives Will Reach To You Within 24 Hours');" id="sheetdb" method="post">
+
+            <div class="w3-col s6 m6 l6" style="padding: 4px;">
+              <input type="text" name="Name" value="" size="40" class="w3-round w3-border w3-input" placeholder="Name" required="">
+            </div>
+            <div class="w3-col s6 m6 l6" style="padding: 4px;">
+              <input type="email" name="EmailAddress" value="" size="40" class="w3-round w3-border  w3-input" placeholder="Email Address" required="">
+            </div>
+
+            <div style="margin-top:8px; padding: 4px;">
+              <input style="height: 90px;" type="text" name="message" value="" size="40" class="w3-border w3-round w3-input" placeholder="Message" required="">
+            </div>
+            <div style="padding: 4px;">
+              <button type="submit" class="w3-round w3-button w3-small" style="background-color: #023020 ; color: #efd17e;"><strong>Submit Contact Form</strong></button><p></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Third Parallax Image with Portfolio Text -->
 
 
@@ -540,7 +608,7 @@ c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-
 <!-- Footer -->
 <!-- Footer -->
 <footer class="w3-container w3-padding-16 w3-g">  
-  <div class="w3-content">
+  <div class="w3-conten">
     <div class="w3-quarter">
       <a href="/" class="w3-bar-item" style="padding:0px; margin-top:8px;">
         <img src="images/logo.png" height="60px" width="60px"><span><b style="font-size: 19px; margin-left: 12px;">TANVI COTTAGES</b></span></a>
@@ -556,8 +624,23 @@ c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-
     </div>
     <div class="w3-quarter">
       <hr class="w3-hide-large w3-border-white w3-hide-medium">
-      <h6><b>Company Links</b></h6>
-      <div style="padding:0px 6px; color: white;">
+      <h6><b>Informational Links</b></h6>
+      <div class="w3-col s6 m6 l6" style="padding:0px 6px; color: white;">
+
+        <a href="about.html">
+          <h6 class=" w3-small">About Us</h6>
+        </a>
+        <a href="contact.html">
+          <h6 class=" w3-small">Contact Us</h6>
+        </a>
+        <a href="privacy-policy.html">
+          <h6 class=" w3-small">Privacy Policy</h6>
+        </a>
+        <a href="disclamer.html">
+          <h6 class=" w3-small">Disclamer</h6>
+        </a>
+      </div>
+      <div class="w3-col s6 m6 l6" style="padding:0px 6px; color: white;">
 
         <a href="about.html">
           <h6 class=" w3-small">About Us</h6>
